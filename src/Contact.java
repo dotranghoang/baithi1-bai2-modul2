@@ -65,6 +65,7 @@ public class Contact<E> {
 
     public void remove(String numberPhone) {
         Node temp = head;
+        Node temp2 = head;
         Node holder = tail;
         int position = 0;
         for (int i = 0; temp != null; i++) {
@@ -86,14 +87,14 @@ public class Contact<E> {
 
         } else {
             for (int i = 0; i < position - 1 && temp != null; i++) {
-                temp = temp.next;
+                temp2 = temp2.next;
             }
             if (temp == null || temp.next == null) {
                 return;
             }
-            Node next = temp.next.next;
-            temp.next = next;
-            temp.next.previous = temp;
+            Node next = temp2.next.next;
+            temp2.next = next;
+            temp2.next.previous = temp;
             index--;
         }
     }

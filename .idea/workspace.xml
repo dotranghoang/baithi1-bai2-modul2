@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9337af6e-2ded-4072-af77-efd96e5f8866" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiThi-2/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiThi-2/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiThi-2/TestContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiThi-2/TestContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestContact.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,7 @@
   <component name="ProjectId" id="1QijCo1JikIrr3qjGXQQsymyC7U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLinkedList" />
@@ -68,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568260185101</updated>
-      <workItem from="1568260187599" duration="8990000" />
+      <workItem from="1568260187599" duration="10075000" />
     </task>
     <servers />
   </component>
@@ -85,6 +89,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Contact.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BaiThi_2$TestContact.ic" NAME="TestContact Coverage Results" MODIFIED="1568265051580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
