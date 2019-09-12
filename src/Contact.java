@@ -141,74 +141,59 @@ public class Contact<E> {
 
     }
 
-    public void searchFirstName(String firstName ) {
+    public String searchFirstName(String firstName ) {
         Node temp = head;
-        int count = 0;
+        String check = "";
         for(int i = 0 ; temp != null; i++ ) {
             if(temp.getFirstName() == firstName) {
-                System.out.println("Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
+                check += "Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
                         + "Last Name : " + temp.lastName + "\n"
-                        + "Phone Number: " + temp.getNumberPhone() + "\n");
-                count++;
+                        + "Phone Number: " + temp.getNumberPhone() + "\n";
             }
             temp = temp.next;
         }
-        if(count == 0) {
-            System.out.println("Not Found");
-        }
+        return check;
     }
 
-    public void searchLastName(String lastName ) {
+    public String searchLastName(String lastName ) {
         Node temp = head;
-        int count = 0;
+        String check = "";
         for(int i = 0 ; temp != null; i++ ) {
             if(temp.getLastName() == lastName) {
-                System.out.println("Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
+                check += "Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
                         + "Last Name : " + temp.lastName + "\n"
-                        + "Phone Number: " + temp.getNumberPhone() + "\n");
-                count++;
+                        + "Phone Number: " + temp.getNumberPhone() + "\n";
             }
             temp = temp.next;
         }
-        if(count == 0) {
-            System.out.println("Not Found");
-        }
+        return check;
     }
 
-    public void searchPhoneNumber(String numberPhone ) {
+    public String searchPhoneNumber(String numberPhone ) {
         Node temp = head;
-        int count = 0;
+        String check = "";
         for(int i = 0 ; temp != null; i++ ) {
             if(temp.getNumberPhone() == numberPhone) {
-                System.out.println("Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
+                check += "Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
                         + "Last Name : " + temp.lastName + "\n"
-                        + "Phone Number: " + temp.getNumberPhone() + "\n");
-                count++;
+                        + "Phone Number: " + temp.getNumberPhone() + "\n";
             }
             temp = temp.next;
         }
-        if(count == 0) {
-            System.out.println("Not Found");
-        }
+       return check;
     }
 
-    public void getContactList() {
-        try {
-
+    public String getContactList() {
             Node temp = head;
-            if (temp == null) {
-                System.out.println("null");
-            }
+            String list = "";
             while (temp != null) {
                 for (int i = 0; i < index; i++) {
-                    System.out.println("Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
+                    list += "Index: " + i + "\n" + "First name: " + temp.getFirstName() + "\n"
                             + "Last Name : " + temp.lastName + "\n"
-                            + "Phone Number: " + temp.getNumberPhone() + "\n");
+                            + "Phone Number: " + temp.getNumberPhone() + "\n";
                     temp = temp.next;
                 }
-            }
-        } catch (NullPointerException e) {
-            System.out.println("");
         }
+        return list;
     }
 }

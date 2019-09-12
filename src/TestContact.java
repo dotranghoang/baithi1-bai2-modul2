@@ -22,7 +22,8 @@ public class TestContact {
 //        contact.setLastName(1,"ASDAS");
 //        contact.setNumberPhone(1,"0123456789");
 //        contact.searchPhoneNumber("0964785596");
-        contact.getContactList();
+//        contact.getContactList();
+        System.out.println(contact.getContactList());
 
     }
 }
