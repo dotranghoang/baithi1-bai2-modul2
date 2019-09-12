@@ -191,7 +191,7 @@ public class Contact<E> {
         }
     }
 
-    public void printList() {
+    public void getContactList() {
         try {
 
             Node temp = head;
